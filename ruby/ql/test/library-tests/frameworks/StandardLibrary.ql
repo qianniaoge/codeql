@@ -30,3 +30,7 @@ query DataFlow::Node classEvalCallCodeExecutions(ClassEvalCallCodeExecution e) {
 query DataFlow::Node moduleEvalCallCodeExecutions(ModuleEvalCallCodeExecution e) {
   result = e.getCode()
 }
+
+query DataFlow::Node moduleConstGetCallCodeExecutions(ModuleConstGetCallCodeExecution e) {
+  result = e.getCode()
+}
